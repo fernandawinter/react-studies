@@ -18,3 +18,6 @@
 // If you are new to JavaScript, then consider taking our JavaScript course and then returning to React.
 
 // The Codecademy React courses are not a high-level overview. They are a deep dive. Take your time! By the end, you will be ready to program in React with a real understanding of what you’re doing.
+
+
+// https://www.codecademy.com/learn/react-101/modules/react-101-jsx-u/cheatsheet
