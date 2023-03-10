@@ -12,3 +12,10 @@
 // A single JSX element can have many attributes, just like in HTML:
 
 // const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px' />;
+
+
+
+
+
+// Declare a constant named p1.
+// Set p1 equal to a JSX <p></p> element. Write the word foo in between the <p></p> tags.
