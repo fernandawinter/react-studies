@@ -25,3 +25,7 @@
 
 // Give the first <p></p> an id attribute of 'large'.
 // Give the second <p></p> an id attribute of 'small'.
+
+
+const p1 = <p id="large">foo</p>;
+const p2 = <p id="small">bar</p>;
