@@ -18,3 +18,11 @@
 // This is the first argument being passed to ReactDOM.render(). ReactDOM.render()‘s first argument should be a JSX expression, and it will be rendered to the screen.
 
 // We’ll discuss the second argument in the next exercise!
+
+
+
+// Below the import statements, call ReactDOM.render().
+// Pass in this expression as a first argument:
+// <h1>Render me!</h1>
+// Pass in this expression as a second argument:
+// document.getElementById('app')
