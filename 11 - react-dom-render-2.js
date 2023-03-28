@@ -13,3 +13,15 @@
 // <main id="app">
 //   <h1>Render me!</h1>
 // </main>
+
+
+
+
+// In index.html, replace this:
+// <main id="app"></main>
+// with this span:
+// <span id="container"></span>
+
+// Select app.js.
+// You want <h1>Render me!</h1> to be appended to <span id="container"></span>.
+// On line 5, make that happen by changing the string passed to document.getElementById().
