@@ -8,3 +8,13 @@
 // You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.”
 
 // You can do this by wrapping your code in curly braces.
+
+// Add a pair of curly braces to the code from last exercise, so that your JSX expression looks like this:
+// <h1>{2 + 3}</h1>
+// Everything inside of the curly braces will be treated as regular JavaScript.
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+// Write code here:
+ReactDOM.render(<h1>{2 + 3}</h1>, document.getElementById("app"));
