@@ -9,3 +9,13 @@
 // Find <div> on line 5. From there up through </div>, the code will be treated as JSX.
 // Find Math. From there up through (20), the code will be treated as regular JavaScript again.
 // The curly braces themselves won’t be treated as JSX nor as JavaScript. They are markers that signal the beginning and end of a JavaScript injection into JSX, similar to the quotation marks that signal the boundaries of a string.
+
+
+
+// Select app.js.
+
+// Declare a new variable named math. Set math equal to a JSX <h1></h1> element.
+
+// Put the following text inside of the <h1>:
+
+// 2 + 3 = 2 + 3
