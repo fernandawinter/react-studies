@@ -41,3 +41,13 @@
 //     src={pics.owlCat} 
 //     alt="Ghastly Abomination" />
 // ); 
+
+
+
+
+
+
+// On line 9, declare a new variable named gooseImg. Set its value equal to a JSX <img /> element.
+// Give the <img /> an attribute with a name of src. Set the attribute’s value equal to the variable goose.
+
+// Use root.render() to render gooseImg.
