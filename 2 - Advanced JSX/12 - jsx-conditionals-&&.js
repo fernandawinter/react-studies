@@ -19,3 +19,15 @@
 //   </ul>
 // );
 // If the expression on the left of the && evaluates as true, then the JSX on the right of the && will be rendered. If the first expression is false, however, then the JSX to the right of the && will be ignored and not rendered.
+
+
+
+
+
+
+// You’ve been building a React website all about your favorite foods!
+// You’re excited to share your website with your friends, and yet at the same time, you fear the cruel, icy harshness of their judgment.
+// On line 15, use the && operator to make it so that this expression:
+// <li>Nacho Cheez Straight Out The Jar</li>
+// will only appear if !judgmental. Feel free to use the example code as a guide.
+// When you click Run, every time you refresh the browser, there will be a 50% chance that judgmental will be true. Refresh until you see both versions of your list.
