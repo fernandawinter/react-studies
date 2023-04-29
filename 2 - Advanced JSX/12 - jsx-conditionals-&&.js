@@ -31,3 +31,26 @@
 // <li>Nacho Cheez Straight Out The Jar</li>
 // will only appear if !judgmental. Feel free to use the example code as a guide.
 // When you click Run, every time you refresh the browser, there will be a 50% chance that judgmental will be true. Refresh until you see both versions of your list.
+
+
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+// judgmental will be true half the time.
+const judgmental = Math.random() < 0.5;
+
+const favoriteFoods = (
+    <div>
+        <h1>My Favorite Foods</h1>
+        <ul>
+            <li>Sushi Burrito</li>
+            <li>Rhubarb Pie</li>
+            {!judgmental && <li>Nacho Cheez Straight Out The Jar</li>}
+            <li>Broiled Grapefruit</li>
+        </ul>
+    </div>
+);
+
+root.render(favoriteFoods);
