@@ -27,3 +27,29 @@
 // ];
 
 // <ul>{liArray}</ul>
+
+
+
+
+
+// You can see that a .map() call is partially set up.
+// On line 10, write an expression to complete the .map() call. This expression should consist of a <li> element containing the person variable.
+// Feel free to use the first example as a guide.
+
+// On line 14, call root.render().
+// For root.render()‘s argument, write a <ul> element. In between the <ul> tags, use curly braces to inject the peopleList variable.
+
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+const people = ['Rowe', 'Prevost', 'Gare'];
+
+const peopleList = people.map(person =>
+    // expression goes here:
+    <li>{person}</li>
+);
+
+// root.render goes here:
+root.render(<ul>{peopleList}</ul>);
