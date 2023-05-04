@@ -15,3 +15,14 @@
 // The list items have memory from one render to the next.For instance, when a to -do list renders, each item must “remember” whether it was checked off.The items shouldn’t get amnesia when they render.
 // A list’s order might be shuffled.For instance, a list of search results might be shuffled from one render to the next.
 // If neither of these conditions is true, then you don’t have to worry about keys.If you aren’t sure, then it never hurts to use them!
+
+
+
+On line 10, give the < li > element a key attribute.
+What should key's value be?
+Each key must be a unique string that React can use to correctly pair each rendered element with its corresponding item in the array.
+So, for each element in people, we must generate a unique value.How can you get.map() to produce unique keys ?
+First, add an i parameter to.map()'s inner function so that you can access each person’s unique index:
+const peopleList = people.map((person, i) =>
+Now, you can get a unique key on each loop by adding the following attribute to the < li > element:
+    key = { 'person_' + i }
