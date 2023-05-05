@@ -18,11 +18,31 @@
 
 
 
-On line 10, give the < li > element a key attribute.
-What should key's value be?
-Each key must be a unique string that React can use to correctly pair each rendered element with its corresponding item in the array.
-So, for each element in people, we must generate a unique value.How can you get.map() to produce unique keys ?
-First, add an i parameter to.map()'s inner function so that you can access each person’s unique index:
+
+
+
+
+
+// On line 10, give the < li > element a key attribute.
+// What should key's value be?
+// Each key must be a unique string that React can use to correctly pair each rendered element with its corresponding item in the array.
+// So, for each element in people, we must generate a unique value.How can you get.map() to produce unique keys ?
+// First, add an i parameter to.map()'s inner function so that you can access each person’s unique index:
+// const peopleList = people.map((person, i) =>
+// Now, you can get a unique key on each loop by adding the following attribute to the < li > element:
+//     key = { 'person_' + i }
+
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+const people = ['Rowe', 'Prevost', 'Gare'];
+
 const peopleList = people.map((person, i) =>
-Now, you can get a unique key on each loop by adding the following attribute to the < li > element:
-    key = { 'person_' + i }
+    // expression goes here:
+    <li key={'person_' + i}>{person}</li>
+);
+
+// root.render goes here:
+root.render(peopeList);
