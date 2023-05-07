@@ -16,3 +16,9 @@
 // When a JSX element is compiled, the compiler transforms the JSX element into the method that you see above: React.createElement().Every JSX element is secretly a call to React.createElement().
 
 // We won’t go in -depth into how React.createElement() works, but check out the React documentation on createElement() to learn more.
+
+
+
+Take a look at the following JSX element:
+const greatestDivEver = <div>i am div</div>;
+In app.js, create the above element without using JSX.
