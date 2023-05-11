@@ -18,3 +18,30 @@
 //     document.getElementById('app')
 // ).render(<MyComponent />);
 // A lot of these look unfamiliar but do not worry.We are going to unpack that code, one small piece at a time.By the end of this lesson, you’ll understand how to build a React component!
+
+
+
+
+
+// Take a look at App.js and index.js.
+// Explore the contents of the files and press Run.
+
+//App.js
+import React from 'react';
+
+function App() {
+    return <h1>Hello again, World!</h1>;
+}
+
+export default App;
+
+
+//index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import App from './App';
+
+ReactDOM.createRoot(
+    document.getElementById('app')
+).render(<App />);
