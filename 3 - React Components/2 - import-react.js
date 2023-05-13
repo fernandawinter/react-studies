@@ -7,3 +7,13 @@
 // By importing the library, we can use important features such as Hooks, which we’ll explore in detail later.
 
 // For the next few exercises, we’ll be working in two files: App.js and index.js.In a React application, the App.js file typically is the top level of your application, and index.js is the entry point.
+
+
+
+
+
+
+
+// In line 1 of App.js, use import to import the React library. Save the library in a variable named React.
+// index.js also needs React.
+// In line 1 of index.js, use import to import the React library. Save the library in a variable named React.
