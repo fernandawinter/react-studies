@@ -14,6 +14,16 @@
 
 
 
+
+
 // In line 1 of App.js, use import to import the React library. Save the library in a variable named React.
 // index.js also needs React.
 // In line 1 of index.js, use import to import the React library. Save the library in a variable named React.
+
+
+// App.js
+import React from 'react';
+
+
+// index.js
+import React from 'react';
