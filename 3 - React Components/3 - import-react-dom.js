@@ -7,3 +7,21 @@
 // The methods imported from 'react' do not deal with the DOM at all. They don’t engage directly with anything that isn’t part of React.
 
 // To clarify: the DOM is used in React applications, but it isn’t part of React. After all, the DOM is also used in countless non-React applications. Methods imported from 'react' are only for pure React purposes, such as creating components or writing JSX elements.
+
+
+
+
+
+
+// Although we imported React in both App.js and index.js in the previous exercise, we will only import ReactDOM in index.js.
+// ReactDOM deals with DOM-specific methods that should be used in index.js, which is the entry point of our application.
+// In index.js, import the ReactDOM library on line 2. Store the result in a variable named ReactDOM.
+
+
+
+//index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+//app.js
+import React from 'react';
