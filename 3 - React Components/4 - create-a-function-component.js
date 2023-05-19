@@ -26,3 +26,11 @@
 // On the last line of the above code block, MyComponent is exported so it can be used later.
 
 // A lot of it is still unfamiliar, but you can understand more than you could before! Let’s keep going!
+
+
+
+
+
+
+// In line 4 of App.js, declare a new function component. You can call this whatever you’d like.
+// Don’t put anything between the curly braces just yet!
