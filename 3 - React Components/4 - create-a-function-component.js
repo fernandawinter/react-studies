@@ -34,3 +34,11 @@
 
 // In line 4 of App.js, declare a new function component. You can call this whatever you’d like.
 // Don’t put anything between the curly braces just yet!
+
+
+//App.js
+import React from 'react';
+// Declare a new function component
+function MyComponent() {
+
+}
