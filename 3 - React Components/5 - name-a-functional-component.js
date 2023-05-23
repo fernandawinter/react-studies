@@ -9,3 +9,17 @@
 // Function component names must start with capitalization and are conventionally created with PascalCase! Due to how JSX tags are compiled, capitalization indicates that it is a React component rather than an HTML tag.
 
 // This is a React - specific nuance! If you are creating a component, be sure to name it starting with a capital letter so it interprets it as a React component.If it begins with a lowercase letter, React will begin looking for a built -in component such as div and input instead and fail.
+
+
+
+
+
+// Edit the code so that the functional component is named MyComponent with a capitalized first letter and follows the Pascal case naming convention.
+
+//App.js
+import React from 'react';
+
+// Declare a new function component
+function MyComponent() {
+
+}

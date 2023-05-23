@@ -19,6 +19,8 @@
 // ).render(<MyComponent />);
 // A lot of these look unfamiliar but do not worry.We are going to unpack that code, one small piece at a time.By the end of this lesson, you’ll understand how to build a React component!
 
+// https://www.codecademy.com/learn/react-101/modules/learn-react-components/cheatsheet
+
 
 
 
