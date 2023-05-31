@@ -16,3 +16,16 @@
 
 // import MyComponent from './App';
 // This will allow us to use MyComponent in index.js.
+
+
+
+
+
+
+
+
+// In App.js, export your function component.
+
+// In index.js, import your function component at the top with the variable name MyComponent.
+
+// Run the code. You’ll see that still, nothing will appear on the browser. That’s because importing and exporting are not enough yet! We need to learn how to use the components and render them. Let’s go!
