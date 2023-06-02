@@ -29,3 +29,20 @@
 // In index.js, import your function component at the top with the variable name MyComponent.
 
 // Run the code. You’ll see that still, nothing will appear on the browser. That’s because importing and exporting are not enough yet! We need to learn how to use the components and render them. Let’s go!
+
+
+//App.js
+import React from 'react';
+
+function MyComponent() {
+    return <h1>Hello world</h1>;
+}
+
+export default MyComponent;
+
+
+//index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import MyComponent from './App';
