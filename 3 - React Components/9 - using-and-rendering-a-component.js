@@ -29,3 +29,48 @@
 // From here, React will display < MyComponent /> in the root and make it appear on the screen.
 
 // In an application fully built with React, you will only need to do this once.Once this is set up, React will manage the DOM of your application, and any updates to the UI is taken care of efficiently.Adding more components should take place in your top - level App.js file.
+
+
+
+
+
+// It’s time to practice rendering your own component. To start, tell React where to render components by specifying a DOM element as the root element for your app.
+// Open up index.js and begin by calling .createRoot() to create a React root to display your content in the <main> element with the id of app.
+
+// Now that you have the root, it’s time to call .render() on it and display the React component.
+// In index.js, use .render() and pass in the MyComponent component.
+// Click Run to test out your code. The world waves hello back!
+
+
+//index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import MyComponent from './App';
+
+
+//App.js
+import React from 'react';
+
+function MyComponent() {
+    return <h1>Hello world</h1>;
+}
+
+export default MyComponent;
+
+
+//index.html
+< !DOCTYPE html >
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="style.css">
+                    </head>
+                    <body>
+                        <main id="app">
+                        </main>
+                        <script src="https://content.codecademy.com/courses/React/react-18-course-bundle.min.js"></script>
+                        <script src="/index.compiled.js"></script>
+                    </body>
+                </html>
