@@ -13,3 +13,9 @@
 // A React component can be used by calling the component name in an HTML-like self-closing tag syntax.
 // Rendering a React component requires using .createRoot() to specify a root container and calling the .render() method on it.
 // Phew! That was a lot, but components are at the core of React and they’re one of the reasons why React is such a powerful tool!
+
+
+
+// If you would like to practice your learned skills, consider these challenges:
+// Create a new JavaScript file in the file directory. Inside, define a new function component and export it.
+// Modify the existing code to render the newly defined component to the browser screen.
