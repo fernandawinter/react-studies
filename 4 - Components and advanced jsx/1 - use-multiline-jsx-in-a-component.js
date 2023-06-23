@@ -22,3 +22,28 @@
 
 // return <h1>Hello world</h1>;
 // However, a multi-line JSX expression should always be wrapped in parentheses! That is why QuoteMaker‘s return statement has parentheses around it.
+
+
+
+
+
+
+
+
+// Here’s another quote, formatted in the same way:
+
+// <blockquote>
+//   <p>
+//     What is important now is to recover our senses.
+//   </p>
+//   <cite>
+//     <a target="_blank" 
+//       href="https://en.wikipedia.org/wiki/Susan_Sontag">
+//       Susan Sontag
+//     </a>
+//   </cite>
+// </blockquote>
+// In MyQuote.js, write a React component that returns this HTML.
+
+// Use QuoteMaker.js as a guide! Remember to import React at the top of the file, and remember to export your component at the bottom of the file.
+// If you don’t like this quote, feel free to use a different one.
