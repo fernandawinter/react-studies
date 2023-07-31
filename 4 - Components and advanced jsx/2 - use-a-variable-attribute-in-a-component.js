@@ -37,3 +37,59 @@
 // an src of owl.src
 // an alt of owl.title
 
+
+//RedPanda.js
+import React from 'react';
+
+const redPanda = {
+    src: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Endangered_Red_Panda.jpg',
+    alt: 'Red Panda',
+    width: '200px'
+};
+
+function RedPanda() {
+    return (
+        <div>
+            <h1>Cute Red Panda</h1>
+            <img
+                src={redPanda.src}
+                alt={redPanda.alt}
+                width={redPanda.width} />
+        </div>
+    );
+}
+
+export default RedPanda;
+
+//Owl.js
+import React from 'react';
+
+const owl = {
+    title: 'Excellent Owl',
+    src: 'https://content.codecademy.com/courses/React/react_photo-owl.jpg'
+};
+
+function Owl() {
+    return (
+        <div>
+            <h1>{owl.title}</h1>
+            <img
+                src={owl.src}
+                alt={owl.title} />
+        </div>
+    );
+}
+
+export default Owl;
+
+//App.js
+import React from 'react';
+import Owl from './Owl'
+
+function App() {
+    return (
+        <Owl />
+    );
+};
+
+export default App;
